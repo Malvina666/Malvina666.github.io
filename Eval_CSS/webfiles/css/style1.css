@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: "Lato" , sans-serif;
+    background-color: #E5E5E5;
+}
+
+/*header*/
+
+    
+#header {
+    background-color: #345765; 
+    font-size: 1.25rem; 
+    font-weight: 400;
+    line-height: 1rem;
+    font-family: "Lato" , sans-serif;
+ 
+}
+
+#header nav {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#header nav img {
+    width: 124px;
+    height: 80px;
+    margin: 10px;
+}
+
+#header ul {
+    display: flex;
+    font-size: 1.063rem;
+}
+
+#header li {
+    list-style: none;
+    text-align: center;
+}
+
+#header li a {
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    text-decoration: none;
+    padding: 1.25rem;
+}
+
+#header li a:hover {
+    text-decoration: underline;
+}
+
+/*main*/
+main #content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 1400px;
+}
+
+main h1 {
+    color: #34A58A;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Montserrat" , sans-serif;
+    line-height: 3.75rem;
+    letter-spacing: 0.1rem;
+    margin-top: 13.25rem;
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+}
+
+main #billard {
+    margin: auto;
+    max-width:1400px;
+    margin-bottom: 7rem;
+  /*  width: 100%;*/
+}
+
+main #info {
+    display: flex;
+    margin: auto;
+    max-width: 1400px;
+}
+main #info h2 {
+    color: #6B5B54;
+    font-size: 2.25rem;
+    font-family: "Montserrat" , sans-serif;
+    line-height: 2.25rem;
+    padding-bottom: 2.25rem;
+}
+
+main #renseignements p {
+    font-size: 1.25rem;
+    font-family: "Lato" , sans-serif;
+}
+
+main #coordonnées  {
+    margin-top: 4.125rem; 
+    margin-bottom: 9.68rem;  
+}
+
+main #coordonnées a {
+    color: #34A58A;
+    display: block;
+    text-decoration: none;
+}
+
+main #coordonnées #adresse {
+    display: flex;
+    padding-bottom: 1.875rem;
+}
+
+#coordonnées #adresse p {
+    padding-left: 1.375rem;
+}
+
+main #coordonnées #mail {
+    display: flex;
+    padding-bottom: 1.25rem;
+}
+
+#coordonnées #mail p {
+    padding-left: 0.625rem;
+}
+
+main #coordonnées #tel {
+    display: flex;
+}
+
+#coordonnées #tel p {
+    padding-left: 0.813rem;
+}
+
+main #coordonnées img {
+    max-height: fit-content;   
+}
+main #map {
+    margin-left: 5.875rem;
+    max-width: 40%;
+    min-height: fit-content;
+}
+
+main #map iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/*footer*/
+
+footer {
+    background-color: #345765;
+}
+
+#footer {
+    display: flex;
+    max-width: 1400px;
+    margin-left: 13%;
+    align-items: center;
+    color: white;
+    padding-top: 9.188rem;
+    padding-bottom: 3.875rem;
+}
+
+#footer h3 {
+    text-decoration: underline;
+}
+
+#footer h3:nth-of-type(2) {
+    padding-top: 2rem;
+    padding-bottom: 1.125rem;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact {
+    width: 40%;
+    margin: auto;
+}
+
+#contact h3:first-of-type {
+    padding-bottom: 2rem;
+}
+#contact p {
+    padding-bottom: 1rem;
+}
+#contact address:last-of-type p {
+    padding-top: 0.5rem;
+}
+
+#annexes {
+    width: 40%;
+    margin: auto;
+}
+
+#annexes #instance {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+#annexes #instance a {
+    border-right: white solid 2px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    
+}
+
+#annexes #instance a:last-of-type {
+    border-right: none;
+}
+
+#annexes #instance a:first-of-type {
+    padding-left: 0;
+}
+
+#annexes #comite span {
+    padding-top: 0.5rem;
+}
+
+#annexes #comite a {
+    border-right: white solid 2px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#annexes #comite a:last-of-type {
+    border-right: none;
+}
+
+#annexes #juridique h3 {
+    padding-top: 2.937rem;
+    padding-bottom: 1rem;
+}
+#annexes #juridique a {
+    display: block;
+}
+
+#annexes #juridique a:first-of-type {
+    padding-bottom: 0.625rem;
+}
+
+#logos_footer {
+    width: 20%;
+}
+#logos_footer img {
+    display: block;
+    margin: 0.5rem;
+}
+
+#integration {
+    color: white;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    border-top: white solid 2px;
+    padding-top: 1.438rem;
+    margin: auto;
+    padding-bottom: 1.25;
+}
+
+/*
+@media  screen and (min-width: 1024px) {
+}*/
+/*
+@media screen and (min-width: 768px){
+
+}
+*/
+@media screen and (min-width:380px) and (max-width: 768px) {
+
+    /*header*/
+
+    #header nav {
+        min-width: none;
+        max-width: 768px;
+    }
+
+    #header nav img {
+        width: 90px;
+        height: 60px;
+        margin: 7px;
+    }
+
+    #header nav li {
+        display: none;
+    }
+    #header nav ul {
+        position: relative;
+        width: 50px;
+        height: 20px;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+    #header nav ul::after {
+        content: "";
+        top: 50%;
+        height: 3px;
+        background-color: white;
+        width: 100%;
+        position: absolute;    
+        transform: translateY(-50%);
+    }
+
+    main {
+        margin: auto;
+    }
+
+    main h1 {
+        margin-top: 5rem;
+    }
+
+    main #billard {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    main #info {
+        display: block;
+    }
+
+    main #coordonnées {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    main #map {
+        margin: 2.5rem;
+        max-width: 100%;
+    }
+
+    main #map iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #footer {
+        flex-direction: column;
+        padding-top: 3rem;
+        text-align: center;
+        margin: auto;
+    }
+}
